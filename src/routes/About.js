@@ -1,12 +1,16 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import HeroImg from '../components/HeroImg'
+import Footer from '../components/Footer'
 
 
 const About = () => {
   return (
     <div>
       <Navbar/>
-      <h1> Kal tak kar duga </h1>
+      <HeroImg/>
+      <h1> Kal tak kar duga jjjjjjjjjj</h1>
+      <Footer/>
     </div>
   )
 }

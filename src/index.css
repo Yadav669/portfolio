@@ -22,3 +22,34 @@ a {
 ul{
   list-style-type: none;
 }
+
+/* General button styles */
+.btn, .btn-Light {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  border: 2px solid #fff; /* Border color for both buttons */
+  border-radius: 1px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Transparent background button */
+.btn {
+  color: #fff; /* Text color for the transparent button */
+  background-color: transparent;
+}
+
+/* Light background button */
+.btn-Light {
+  color: #333; /* Text color for the light background button */
+  background-color: #f4f4f4; /* Light background color */
+}
+
+/* Hover styles for both buttons */
+.btn:hover, .btn-Light:hover {
+  background-color: #e6ec2d; /* Background color on hover */
+  color: #0a0a0a; /* Text color on hover */
+}
+

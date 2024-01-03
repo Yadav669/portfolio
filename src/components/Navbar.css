@@ -1,13 +1,20 @@
 /* Navbar Styles */
 .header {
-  background-color: #333;
+  /* background-color: #060000; */
   color: white;
   padding: 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  height: 90px  ;
 }
-
+.header-bg {
+  background-color: black;
+  transition: 0.5s;
+}
 .nav-menu {
   display: flex;
 }
