@@ -6,13 +6,13 @@ import Project from "./routes/Project"
 import Contact from "./routes/Contact"
 
 import { Route, Routes } from "react-router-dom"
-import Navbar from "./components/Navbar";
+// import Navbar from "./components/Navbar";
 
 function App() {
   return (
    <>
 
-      <Navbar/>
+      {/* <Navbar/> */}
       <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="/About" element={<About />}/>

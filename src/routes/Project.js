@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar'
 const Project = () => {
   return (
     <div>
-     
+     <Navbar/>
       <h1> parso tak kar duga </h1>
     </div>
   )
