@@ -1,15 +1,14 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import HeroImg from '../components/HeroImg'
 import Footer from '../components/Footer'
+import Phero from '../components/Phero'
 
 
 const About = () => {
   return (
     <div>
       <Navbar/>
-      <HeroImg/>
-      <h1> Kal tak kar duga jjjjjjjjjj</h1>
+      <Phero heading="ABOUT." text="Im a friendly Front-End Developer"/>
       <Footer/>
     </div>
   )

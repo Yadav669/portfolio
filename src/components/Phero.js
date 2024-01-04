@@ -1,15 +1,17 @@
 import "./Phero.css";
-import React from "react";
+import React, { Component } from "react";
 
-const Phero = () => {
-  return (
-    <div className="hero-img">
-      <div className="heading">
-        <h1>Projects</h1>
-        <p>Some od my most recent Work</p>
+class Phero extends Component {
+  render(){
+    return (
+      <div className="hero-img">
+        <div className="heading">
+          <h1>{this.props.heading}</h1>
+          <p>{this.props.text}</p>
+        </div>
       </div>
-    </div>
-  );
-};
+    );
+  };
+  }
 
 export default Phero;

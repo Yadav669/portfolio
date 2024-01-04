@@ -7,7 +7,7 @@ const Project = () => {
   return (
     <div>
      <Navbar/>
-     <Phero/>
+     <Phero heading="PROJECTS." text="Some of my most recent works"/>
      <Footer/>
     </div>
   )

@@ -1,15 +1,14 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import HeroImg from '../components/HeroImg'
 import Footer from '../components/Footer'
+import Phero from '../components/Phero'
 
 
 const Contact = () => {
   return (
     <div>
     <Navbar/>
-    <HeroImg/>
-      <h1> Kal tak kar duga </h1>
+    <Phero heading="CONTACT." text="Lets have a chat?"/>
     <Footer/>
     </div>
   )
